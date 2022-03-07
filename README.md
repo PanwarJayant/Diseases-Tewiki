@@ -13,17 +13,17 @@ The following ordered list will give an idea as to what stage the project curren
 - [x] Create a sample article
 - [x] Review of the sample article
 - [x] Work on feedback from review of sample article
-- [] Review of the dataset (in-progress)
-- [] Create template for article generation (in-progress)
-- [] Review of the template
-- [] Work on feedback from review of template
-- [] Create the XML dump for all the diseases to be published
+- [ ] Review of the dataset (in-progress)
+- [ ] Create template for article generation (in-progress)
+- [ ] Review of the template
+- [ ] Work on feedback from review of template
+- [ ] Create the XML dump for all the diseases to be published
 
 ## Folders
 
-`Datasets`: Contains all the dataset (csv) files that have been used for this project.
-`Code`: Contains all the code that has been used in the project.
-`Template`: Currently empty but will contain the jinja template for the XML generation of a Diseases article.
+- `Datasets`: Contains all the dataset (csv) files that have been used for this project.
+- `Code`: Contains all the code that has been used in the project.
+- `Template`: Currently empty but will contain the jinja template for the XML generation of a Diseases article.
 
 ### Datasets
 
