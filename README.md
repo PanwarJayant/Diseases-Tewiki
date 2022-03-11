@@ -14,7 +14,7 @@ The following ordered list will give an idea as to what stage the project curren
 - [x] Review of the sample article
 - [x] Work on feedback from review of sample article
 - [ ] Review of the dataset (in-progress)
-- [ ] Create template for article generation (in-progress)
+- [x] Create template for article generation (in-progress)
 - [ ] Review of the template
 - [ ] Work on feedback from review of template
 - [ ] Create the XML dump for all the diseases to be published
