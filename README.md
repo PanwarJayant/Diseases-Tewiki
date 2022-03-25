@@ -13,8 +13,8 @@ The following ordered list will give an idea as to what stage the project curren
 - [x] Create a sample article
 - [x] Review of the sample article
 - [x] Work on feedback from review of sample article
-- [ ] Review of the dataset (in-progress)
-- [x] Create template for article generation (in-progress)
+- [x] Review of the dataset
+- [x] Create template for article generation
 - [x] Review of the template
 - [x] Work on feedback from review of template
 - [x] Create the XML dump for all the diseases to be published
@@ -23,7 +23,7 @@ The following ordered list will give an idea as to what stage the project curren
 
 - `Datasets`: Contains all the dataset (csv) files that have been used for this project.
 - `Code`: Contains all the code that has been used in the project.
-- `Template`: Currently empty but will contain the jinja template for the XML generation of a Diseases article.
+- `Template`: Contains the jinja template for the XML generation of a Disease article.
 
 ### Datasets
 
@@ -46,3 +46,10 @@ This folder contains various files:
 - [translate](./Code/translate.ipynb): it contains the code for using Google translator to translate English scraped dataset into Hindi dataset. It also contains code for transliteration.
 - [translateInfobox](./Code/translateInfobox.ipynb): this file contains the code for translating the scraped English infobox information.
 - [merge](./Code/merge.ipynb): this file contains the code for merging the translated files of the website scraped data and infobox data.
+
+### Generating articles
+
+- [template](./Template/template.j2): it contains the template for the structure of a disease and condition article
+- [genXML](./genXML.py): it contains the backbone structure for conversion to XML
+- [render](./render.py): it contains the code for generating XML dump of articles using the template and the dataset
+- [diseases](./diseases.xml): the final XML dump file of all the 1157 diseases and conditions
