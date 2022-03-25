@@ -29,10 +29,10 @@ The following ordered list will give an idea as to what stage the project curren
 
 This folder contains the final dataset as well as some other dataset that have been used in the project:
 
-- [FinalDiseasesHindi](./Datasets/FinalDiseasesHindi.csv): this file contains the final dataset that will be used for article generation. This file contains data on 1157 diseases and has 24 attributes.
+- [FinalDiseasesHindi](./Datasets/FinalDiseasesHindi.csv): this file contains the final dataset that will be used for article generation. This file contains data on 1157 diseases and has 24 attributes. Its excel version is [here](./Datasets/FinalDiseasesHindi.xlsx).
 - [Others/ScrapedEnglish](./Datasets/Others/ScrapedEnglish.csv): contains the original scraped data on diseases and conditions from Mayo Clinic and NHS.
 - [Others/InfoboxEnglish](./Datasets/Others/InfoboxEnglish.csv): contains the infobox attributes that were scraped from the diseases' English wikipedia pages.
-- [Others/MergedEnglish](./Datasets/Others/MergedEnglish.csv): contains the merged dataset file of the original scraped data and the infobox data.
+- [Others/MergedEnglish](./Datasets/Others/MergedEnglish.csv): contains the merged dataset file of the original scraped data and the infobox data. Its excel version can be found [here](./Datasets/Others/MergedEnglish.xlsx).
 
 ### Code
 
